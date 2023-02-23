@@ -1,0 +1,56 @@
+:root {
+    --board-size: 480px;
+    --square-size: 60px;
+}
+
+#fenInputContainer {
+    position: relative;
+    left: 60px;
+}
+
+#fenInput {
+    width: 480px;
+}
+
+#fenInputButton {
+    width: 128px;
+    left: 60px;
+}
+
+.board { 
+    margin: 60px;
+    width: var(--board-size);
+    height: var(--board-size);
+    border-style: solid;
+    border-width: 2px;
+}
+
+.row {
+    display: flex;
+}
+
+.square {
+    width: var(--square-size);
+    height: var(--square-size);
+}
+
+.light {
+    background-color: white;
+}
+
+.dark {
+    background-color: gray;
+}
+
+.selected {
+    background-color: rgb(60, 71, 71);
+}
+
+.targeted {
+    background-color: rgb(95, 95, 52);
+}
+
+.piece img{
+    max-width: 64px;
+    max-height: 64px;
+}

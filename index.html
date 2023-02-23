@@ -1,0 +1,23 @@
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Chess.js</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <header>Chess.js</header>
+        <div id="fenInputContainer">
+            Fen: <br/>
+            <input type="text" id="fenInput" placeholder="rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1 ">
+            <button type="button" id="fenInputButton">Parse FEN</button>
+        </div>
+
+        <div class="board"></div>
+        
+        <span id="winCondition"></span>
+
+        <script src="./main.js"></script>
+    </body>
+</html>
